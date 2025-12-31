@@ -2,10 +2,10 @@ name: ci-wf
 on:
   pull_request:
   branches:
-  - develop
+    - develop
   types:
-  - opened
-  - synchronize
+    - opened
+    - synchronize
 jobs:
   linting-job:
     runs-on: ubuntu-latest
